@@ -16,7 +16,7 @@
             <array>
                 <dict>
                     <key>Comment</key>
-                    <string>SSDT-ARTC.aml</string>
+                    <string>J4F</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
@@ -40,7 +40,7 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>SSDT-EC-USBX_Desktop.aml</string>
+                    <string>USB Power port</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
@@ -48,7 +48,7 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>SSDT-FWHD.aml</string>
+                    <string>J4F</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
@@ -56,7 +56,7 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>SSDT-PLUG.aml</string>
+                    <string>CPU I7 10700</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
@@ -80,7 +80,7 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>SSDT-USB-Reset.aml</string>
+                    <string>Use with USBToolbox</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
@@ -88,7 +88,7 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>SSDT-XSPI.aml</string>
+                    <string>J4F</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
@@ -489,7 +489,7 @@
                     <key>BundlePath</key>
                     <string>UTBMap.kext</string>
                     <key>Comment</key>
-                    <string>V1.1 | UTBMap.kext</string>
+                    <string>Remove USB Bios port</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -525,7 +525,7 @@
                     <key>BundlePath</key>
                     <string>CPUFriendDataProvider.kext</string>
                     <key>Comment</key>
-                    <string>V1.0.1 | CPUFriendDataProvider.kext</string>
+                    <string>I7 10700</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1259,7 +1259,7 @@
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
-                <data>U7xg8lWw</data>
+                <data></data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
