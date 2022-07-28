@@ -8,7 +8,8 @@ My PC:
 - VGA: RX570 Shapphie Nitro 4Gb
 ____________________
  
-My EFI work only on Z490 Vision G (not D) on Catalina, Bigsur and Monterey.
+My EFI work only on Z490 Vision G (not D) on Catalina, Bigsur and Monterey. Currently, Working on macOS Monterey 12.5 (21G72)
+
 
 - Before using my EFI, you must use OCAuxiliaryTools to create MLB, UUID, Serial Number and ROM.
 - I use iGPU for compute only!
