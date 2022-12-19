@@ -16,3 +16,5 @@ My EFI work only on Z490 Vision G (not D) on Catalina, Bigsur and Monterey. Curr
 - Don't use any Optane SSD!
 
 To make Intel 255 Lan work on Bigsur and monterey, you will flash the custom fw to this card. I will post it late!
+
+Testing on Ventura 13.0.1.....
