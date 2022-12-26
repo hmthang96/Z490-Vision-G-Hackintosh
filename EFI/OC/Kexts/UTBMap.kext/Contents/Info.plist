@@ -22,6 +22,31 @@
 	<string>1.1</string>
 	<key>IOKitPersonalities</key>
 	<dict>
+		<key>2:0:2</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.dhinakg.USBToolBox.kext</string>
+			<key>IOClass</key>
+			<string>USBToolBox</string>
+			<key>IOMatchCategory</key>
+			<string>USBToolBox</string>
+			<key>IOPropertyMatch</key>
+			<dict>
+				<key>pcidebug</key>
+				<string>2:0:2</string>
+			</dict>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>IOProviderMergeProperties</key>
+			<dict>
+				<key>port-count</key>
+				<data>
+				AAAAAA==
+				</data>
+				<key>ports</key>
+				<dict/>
+			</dict>
+		</dict>
 		<key>XHC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
@@ -38,14 +63,14 @@
 			<dict>
 				<key>port-count</key>
 				<data>
-				GgAAAA==
+				GQAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
 					<key>HS01</key>
 					<dict>
 						<key>#comment</key>
-						<string>Front-2 2.0</string>
+						<string>case-MID-2.0</string>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>port</key>
@@ -56,7 +81,7 @@
 					<key>HS02</key>
 					<dict>
 						<key>#comment</key>
-						<string>Bot-Left 2.0</string>
+						<string>BOT-LEFT-2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -67,7 +92,7 @@
 					<key>HS03</key>
 					<dict>
 						<key>#comment</key>
-						<string> NearTypeC 2.0</string>
+						<string>MID-RIGHT-2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -78,7 +103,18 @@
 					<key>HS04</key>
 					<dict>
 						<key>#comment</key>
-						<string>Mid 2.0</string>
+						<string>TYPEC-2.0</string>
+						<key>UsbConnector</key>
+						<integer>9</integer>
+						<key>port</key>
+						<data>
+						BgAAAA==
+						</data>
+					</dict>
+					<key>HS05</key>
+					<dict>
+						<key>#comment</key>
+						<string>TOP--HUBx4-2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -86,32 +122,21 @@
 						BwAAAA==
 						</data>
 					</dict>
-					<key>HS05</key>
+					<key>HS06</key>
 					<dict>
 						<key>#comment</key>
-						<string>Front-1 2.0</string>
+						<string>case-TOP--2.0</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						CQAAAA==
 						</data>
 					</dict>
-					<key>HS06</key>
-					<dict>
-						<key>#comment</key>
-						<string>Front-3 2.0</string>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						CgAAAA==
-						</data>
-					</dict>
 					<key>HS07</key>
 					<dict>
 						<key>#comment</key>
-						<string>MouseAndKeyBoard-Left</string>
+						<string>USB-PS2</string>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>port</key>
@@ -122,9 +147,9 @@
 					<key>HS08</key>
 					<dict>
 						<key>#comment</key>
-						<string>Bluetooth 2.0</string>
+						<string>BLUETOOTH</string>
 						<key>UsbConnector</key>
-						<integer>255</integer>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						DAAAAA==
@@ -133,7 +158,7 @@
 					<key>HS09</key>
 					<dict>
 						<key>#comment</key>
-						<string>MouseAndKeyBoard-Right</string>
+						<string>USB-PS2-R</string>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>port</key>
@@ -153,7 +178,7 @@
 					<key>SS02</key>
 					<dict>
 						<key>#comment</key>
-						<string>Bot-Left 3.0</string>
+						<string>BOT-LEFT-3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -164,7 +189,7 @@
 					<key>SS03</key>
 					<dict>
 						<key>#comment</key>
-						<string> NearTypeC 3.0</string>
+						<string>MID-RIGHT-3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -175,7 +200,18 @@
 					<key>SS04</key>
 					<dict>
 						<key>#comment</key>
-						<string>Mid 3.0</string>
+						<string>TYPEC-3.0</string>
+						<key>UsbConnector</key>
+						<integer>9</integer>
+						<key>port</key>
+						<data>
+						FgAAAA==
+						</data>
+					</dict>
+					<key>SS05</key>
+					<dict>
+						<key>#comment</key>
+						<string>TOP-HUBx4-3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -183,26 +219,15 @@
 						FwAAAA==
 						</data>
 					</dict>
-					<key>SS05</key>
-					<dict>
-						<key>#comment</key>
-						<string>Front-1 3.0</string>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						GQAAAA==
-						</data>
-					</dict>
 					<key>SS06</key>
 					<dict>
 						<key>#comment</key>
-						<string>Front-3 3.0</string>
+						<string>case-TOP-3.0</string>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
-						GgAAAA==
+						GQAAAA==
 						</data>
 					</dict>
 				</dict>
