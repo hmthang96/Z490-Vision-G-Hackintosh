@@ -25,3 +25,6 @@ To make Intel 255 Lan work on Bigsur and monterey, you will flash the custom fw 
 From Ventura, Intel 255-V will work natively, no need to patch.
 
 BCM94360 Wifi is temporary not working, I will fix late.
+
+IF you use AMD card, you can play DRM on Apple TV and play lossless audio on Apple Music by below pasting code to terminal:
+defaults write com.apple.AppleGVA gvaForceAMDKE -boolean yes
